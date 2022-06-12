@@ -26,3 +26,4 @@ function App() {
 }
 
 export default App;
+// 쇼핑몰
