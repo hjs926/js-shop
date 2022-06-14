@@ -1,5 +1,6 @@
 import React from "react";
 import "./Header.css";
+import { Cart } from "react-bootstrap-icons";
 
 export default function Header(props) {
   return (
@@ -19,7 +20,9 @@ export default function Header(props) {
         <div className="header_option">
           <span className="header_optionLineOne"></span>
           <span className="header_optionLineTwo">
-            <a href="#">찜리스트</a>
+            <a href="#">
+              <Cart icon={Cart} size="35" color="black" />
+            </a>
           </span>
         </div>
         <div className="header_option">
