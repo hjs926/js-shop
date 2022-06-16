@@ -1,4 +1,6 @@
 import React from "react";
+import DetailReview from "./component/DetailReview";
+import HomeProduct from "./component/Home-product";
 import ProductDetail from "./Product-detail";
 import styles from "./Product-detailPage.module.css";
 
