@@ -21,7 +21,7 @@ export default function DetailReview(props) {
         </div>
         <div className="header-option">
           <span className="header-optionLineOne ">
-            <a href="#">로그인</a>
+            <Link to="login">로그인</Link>
           </span>
           <span className="header-optionLineTwo">
             <a href="#">구매목록</a>
